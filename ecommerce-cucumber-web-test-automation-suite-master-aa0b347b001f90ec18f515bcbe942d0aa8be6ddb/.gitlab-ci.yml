@@ -10,9 +10,5 @@ before_script:
 app-demo-profile:
   script:
   - bundle exec cucumber PROFILE_ID=13 -p app_calliope_import
-  when: manual
-
-app-test-demo-profile:
-  script:
-  - bundle exec cucumber PROFILE_ID=1 -p app_test_calliope_import
+  - bundle exec cucumber PROFILE_ID=222 -p app_calliope_import
   when: manual
